@@ -1,0 +1,47 @@
+name: weather_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+# Dependencies specify other packages that your package needs in order to work.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0 # For making HTTP requests
+  provider: ^6.1.0 # (Optional) For state management
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^4.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+  assets:
+   - assets/images/image1.jpg
+   - assets/images/image2.jpg
+   - assets/images/image3.jpg
+   - assets/images/image4.jpg
+
+
+  # The following line ensures that the Material Icons font is
+  uses-material-design: true
+
